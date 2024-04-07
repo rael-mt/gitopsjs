@@ -1,0 +1,176 @@
+body {
+    background-color: rgb(17, 18, 21);
+}
+
+@font-face {
+    font-display: block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://app.framerstatic.com/Inter-Black.cyrillic-ext-TU4ITVTR.woff2) format("woff2");
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F
+}
+
+
+.container {
+    height: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0px;
+    padding: 60px 0 100px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: min-content;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.container-main {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 32px;
+    height: min-content;
+    justify-content: center;
+    max-width: 630px;
+    overflow: visible;
+    padding: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.main-container {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    transform: perspective(1200px);
+    width: 100%;
+}
+
+.main {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.local {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 64px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 83%;
+}
+.localcyty {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: min-content;
+}
+
+h1 {
+    font-family: "Inter-BlackItalic", sans-serif;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+    text-align: start;
+    text-decoration: rgb(245, 245, 247);
+    color: rgb(245, 245, 247);
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+h2 {
+    color: rgb(161, 161, 170);
+}
+
+p {
+    font-family: 'DM Mono', 'monospace';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: start;
+    color: rgb(161, 161, 170);
+}
+
+.list {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 8px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding: 16px 0 0;
+    width: 100%;
+}
+
+.frame {
+    flex: none;
+    height: auto;
+    position: relative;
+    width: auto;
+}
+
+a {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+    width: min-content;
+}
+
+.icon {
+    flex: none;
+    height: 20px;
+    position: relative;
+    width: 20px;
+}
+
