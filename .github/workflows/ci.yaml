@@ -43,7 +43,7 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       run: |
         cd k8s
-        kustomize edit set image jsserver=$DOCKER_USERNAME/gitopsjs:$GITHUB_SHA
+        kustomize edit set image jsserver=$DOCKER_USERNAME/node20:$GITHUB_SHA
 
     - name: Commit
       run: |

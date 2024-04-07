@@ -7,5 +7,5 @@ resources:
 
 images:
 - name: jsserver
-  newName: raelmartins44/gitopsjs
+  newName: raelmartins44/node20
   newTag: newTag
