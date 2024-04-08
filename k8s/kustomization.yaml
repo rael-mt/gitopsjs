@@ -8,4 +8,4 @@ resources:
 images:
 - name: jsserver
   newName: raelmartins44/node20
-  newTag: a32fd598727a415b065932bf50ec3f0131da872c
+  newTag: 36d625cde7706631c9141cfccf94bc7c6230a28e
