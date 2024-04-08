@@ -7,5 +7,5 @@ resources:
 
 images:
 - name: jsserver
-  newName: raelmartins44/node20
+  newName: raelmartins44/gitopsjs
   newTag: 36d625cde7706631c9141cfccf94bc7c6230a28e
