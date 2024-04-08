@@ -8,4 +8,4 @@ resources:
 images:
 - name: jsserver
   newName: raelmartins44/gitopsjs
-  newTag: 44b09f6a7ee298d0f94337c39d5cadafd9cfefd6
+  newTag: 28b02d46f4dff0f710cb849986a745e67ce793ba
